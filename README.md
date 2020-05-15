@@ -4,3 +4,7 @@ Blog detailing my work and weekly progress in the project <a href="https://sites
 
 Code and instructions available in the repository - <a href="https://github.com/EdOates84/Show-Segmentation">EdOates84/Show-Segmentation</a>
 
+## Weekly Progress:
+
+### [Week 1  - Community bonding + Research]
+
