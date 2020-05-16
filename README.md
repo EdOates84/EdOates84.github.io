@@ -6,5 +6,5 @@ Code and instructions available in the repository - <a href="https://github.com/
 
 ## Weekly Progress:
 
-### [Week 1  - Community bonding + Research]
+### [Week 1  - Community bonding + Research](Week1/week1.md)
 
