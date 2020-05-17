@@ -1,2 +1,2 @@
-## Week 1 - Community Bonding + Research
+## Week 1 - Community Bonding + Setup
 
