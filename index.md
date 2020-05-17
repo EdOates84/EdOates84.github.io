@@ -17,3 +17,10 @@ To get to the code and sample we use, please go to the github [Show-Segmentaion 
 
 ### [Week 1  - Community Bonding + Setup](Week-1/week1.md)
 ### [Week 2  - Singularity Container](Week-2/week-2.md)
+
+
+
+## Contact Information
+Email: nmahawar@ch.iitr.ac.in
+Linkedin: [Nitesh Mahawar](https://www.linkedin.com/in/niteshmahawar9984/)
+Github: [EdOates84](https://github.com/EdOates84)
