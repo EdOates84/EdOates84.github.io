@@ -7,5 +7,5 @@ Code and instructions available in the repository - <a href="https://github.com/
 ## Weekly Progress:
 
 ### [Week 1  - Community bonding + Setup](Week-1/week1.md)
-### [Week 2  - Singularity Container](Week-2/week2.md)
+### [Week 2  - Singularity Container](Week-2/week-2.md)
 
