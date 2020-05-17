@@ -21,6 +21,6 @@ To get to the code and sample we use, please go to the github [Show-Segmentaion 
 
 
 ## Contact Information
-Email: nmahawar@ch.iitr.ac.in
-Linkedin: [Nitesh Mahawar](https://www.linkedin.com/in/niteshmahawar9984/)
-Github: [EdOates84](https://github.com/EdOates84)
+* Email: nmahawar@ch.iitr.ac.in
+* Linkedin: [Nitesh Mahawar](https://www.linkedin.com/in/niteshmahawar9984/)
+* Github: [EdOates84](https://github.com/EdOates84)
