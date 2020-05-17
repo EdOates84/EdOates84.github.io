@@ -1,3 +1,4 @@
+![](gsoc-2020-projects.png)
 ## Introduction About Me 
 
 My name is Nitesh Mahawar and I am sophomore at Indian Institute of Technology, Roorkee. I developed a passion for programming, and machine learning in particular in my freshman year and have been working with various technologies, languages, and frameworks since then. I’ve read and implemented a considerable number of research papers on Machine learning,
