@@ -1,38 +1,15 @@
-## Welcome to GitHub Pages
+## Introduction About Me 
 
-### [Week 1  - Community bonding + Research](Week-1/week1.md)
-You can use the [editor on GitHub](https://github.com/EdOates84/EdOates84.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+My name is Nitesh Mahawar and I am sophomore at Indian Institute of Technology, Roorkee. I developed a passion for programming, and machine learning in particular in my freshman year and have been working with various technologies, languages, and frameworks since then. I’ve read and implemented a considerable number of research papers on Machine learning,
+computer vision, and sequence/language modeling. For the last few months,I’ve worked on a project gave me by the senior principal scientist at CSIR-CBRI,Roorkee 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## TV Show Segmentation
 
-### Markdown
+Blog detailing my work and weekly progress in the project <a href="https://sites.google.com/site/distributedlittleredhen/home/the-cognitive-core-research-topics-in-red-hen/the-barnyard/tv-show-segmentation">TV Show Segmentation</a> that I worked on in Summer 2020, for Google Summer of Code with Red Hen Lab.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+The link to the github repository source code :[Show-Segmentaion](https://github.com/EdOates84/Show-Segmentation)
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+### Latest Post
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/EdOates84/EdOates84.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### [Week 1  - Community bonding + Setup](Week-1/week1.md)
