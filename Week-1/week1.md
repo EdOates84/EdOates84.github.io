@@ -1,5 +1,7 @@
 ## Week 1 - Community Bonding + Setup
 
+![img](https://miro.medium.com/max/598/0*S6Es74nvRVxExEkL.png)
+
 ## Notes from the community bonding period
 
 ## Use of CRWU HPC
