@@ -19,6 +19,7 @@ To get to the code and sample we use, please go to the github [Show-Segmentaion 
 
 ### [Week 1  - Community Bonding + Setup](Week-1/week1.md)
 ### [Week 2  - Singularity Container](Week-2/week-2.md)
+### [Week 3  - Resize IMDB Dataset](Week-3/week-3.md)
 
 
 
