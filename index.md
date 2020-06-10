@@ -18,7 +18,7 @@ To get to the code and sample we use, please go to the github [Show-Segmentaion 
 ## Latest Post
 
 ### [Community Bonding](Community_Bonding/week1.md)
-### [Phase1 update](Phase1/phase1.md)
+### [Phase-1](Phase-1/phase-1_update.md)
 
 
 
