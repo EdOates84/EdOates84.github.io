@@ -1,4 +1,4 @@
-### Phase-1 Update
+## Phase-1 Update
 
 By using face recognition, we are getting multiple persons with any profession, but we want only news anchors- 
 * After exploring the whole IMDB dataset, we don't get professions of any anchors. 
