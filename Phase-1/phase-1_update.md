@@ -8,4 +8,12 @@ Suppose we are getting five persons or prediction for a given show
 * We have to check each person's professions, whether he/she is an anchor/host/journalist/presenter, etc.
 * I wrote code for the check profession and got only one anchor from 5
 
-Next, we move on to finding a channel from the list of anchors
+Next, we move on to finding a channel from the list of anchors-
+
+In the process of finding the channel name-
+
+There are two ways to get channels 
+* By using subtitles- After the checking of whole Rosenthal dataset we don't have all subtitles files there are only 40-50% files which is useful for us, but we can't generalize it so we can choose next method to finding the channels.  
+
+* By using Wikipedia content page - after research, we have a list of channels or networks. Then, the first check in this given channel is present in the anchors Wikipedia then store that channel or networks. Like this store all channels from each anchor of videos and then take commonly from these to finding the correct channel or network. 
+
