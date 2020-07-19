@@ -8,3 +8,5 @@ Code and instructions available in the repository - <a href="https://github.com/
 
 ### [Community bonding](Community_Bonding/week1.md)
 ### [Phase-1](Phase-1/phase-1_update.md)
+### [Phase-2 Update](Phase-2/phase-2_update.md)
+
