@@ -22,10 +22,12 @@ In case of multiple nconst like dataset contains multiple anchors from the same 
 only consider those shows that aired during pull year
 only take nconst who have news-related (Talk-shows and news genre) shows
 at least one title must be of US region
-Get_tconst
-tconst (string) is a unique alphanumeric identifier of the title
-take all titles for a particular nconst
-Get_Shows
+
+### Get_tconst
+* tconst (string) is a unique alphanumeric identifier of the title
+* Take all titles for a particular nconst
+
+### Get_Shows
 We are union all tconst associate with a particular nconst like by title_crew, known for the title.
 If multiple shows like an anchor worked in many shows for this, we are using filters
 only consider those shows that aired during pull year
