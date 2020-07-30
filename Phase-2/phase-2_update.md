@@ -17,11 +17,11 @@ Now we have correct anchors and correct networks of the video with us.
 
 We are using IMDb Dataset because it contains all information regarding a show. 
 ### Get_nconst
-nconst (string) is a unique alphanumeric identifier of the name/person
-In case of multiple nconst like dataset contains multiple anchors from the same name for this we are using filters
-only consider those shows that aired during pull year
-only take nconst who have news-related (Talk-shows and news genre) shows
-at least one title must be of US region
+* nconst (string) is a unique alphanumeric identifier of the name/person
+* In case of multiple nconst like dataset contains multiple anchors from the same name for this we are using filters
+   * only consider those shows that aired during pull year
+   * only take nconst who have news-related (Talk-shows and news genre) shows
+   * at least one title must be of US region
 
 ### Get_tconst
 * tconst (string) is a unique alphanumeric identifier of the title
