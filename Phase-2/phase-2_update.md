@@ -4,7 +4,7 @@
 * In case of multiple we can use the voting method to find the correct network.
 
 
-Example: We have seven shows in a particular video and get all anchors from that video. Using Wikipedia API, we get the wiki page of each anchor, and then we can easily search his/her networks.
+<b>Example:</b> We have seven shows in a particular video and get all anchors from that video. Using Wikipedia API, we get the wiki page of each anchor, and then we can easily search his/her networks.
 
 let's say A, B, C, D, E are the different networks getting from each anchor  
 {'A': 5, 'B': 4, 'C': 8, 'D': 4, 'E': 5}    
