@@ -1,8 +1,10 @@
-# Process of getting Networksd
-Now we are getting the show's exact channel with the help of all probable host that is present in the whole video. We are using the voting method to find the correct network.
+# Process of getting Networks
+
+Now we are getting the show's exact network with the help of all probable hosts that is present in the whole video. We are using the voting method to find the correct network.
 
 
 Example: We have seven shows in a particular video and get all anchors from that video. Using Wikipedia API, we get the wiki page of each anchor, and then we can easily search his/her networks.
+
 let's say A, B, C, D, E are the different networks getting from each anchor  
 {'A': 5, 'B': 4, 'C': 8, 'D': 4, 'E': 5}    
 then C is the most voted network. C is the final network of that video.
@@ -34,4 +36,4 @@ end year of the show should be higher than pull year
 starting year of the show should be less than pull year
 checking title name in subtitle files
 checking network of show
-By using these filters, we are getting the exact show in case of our probable host is correct 
+* By using these filters, we are getting the exact show in case of our probable host is correct 
