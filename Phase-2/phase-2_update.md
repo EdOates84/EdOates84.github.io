@@ -28,14 +28,15 @@ We are using IMDb Dataset because it contains all information regarding a show.
 * Take all titles for a particular nconst
 
 ### Get_Shows
-We are union all tconst associate with a particular nconst like by title_crew, known for the title.
-If multiple shows like an anchor worked in many shows for this, we are using filters
-only consider those shows that aired during pull year
-only take nconst who have news-related (Talk-shows and news genre) shows
-All shows from US region
-only taking tv-series
-end year of the show should be higher than pull year
-starting year of the show should be less than pull year
-checking title name in subtitle files
-checking network of show
-* By using these filters, we are getting the exact show in case of our probable host is correct 
+* We are union all tconst associate with a particular nconst like by title_crew, known for the title.
+* If multiple shows like an anchor worked in many shows for this, we are using filters
+  * only consider those shows that aired during pull year
+  * only take nconst who have news-related (Talk-shows and news genre) shows
+  * All shows from US region
+  * only taking tv-series
+  * end year of the show should be higher than pull year
+  * starting year of the show should be less than pull year
+  * checking title name in subtitle files
+  * checking network of show
+  
+ By using these filters, we are getting the exact show in case of our probable host is correct 
