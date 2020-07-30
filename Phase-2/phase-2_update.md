@@ -1,6 +1,7 @@
 # Process of getting Networks
 
-Now we are getting the show's exact network with the help of all probable hosts that is present in the whole video. We are using the voting method to find the correct network.
+* Now we are getting the show's exact network with the help of all probable hosts that is present in the whole video. 
+* In case of multiple we can use the voting method to find the correct network.
 
 
 Example: We have seven shows in a particular video and get all anchors from that video. Using Wikipedia API, we get the wiki page of each anchor, and then we can easily search his/her networks.
