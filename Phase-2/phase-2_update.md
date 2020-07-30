@@ -1,3 +1,4 @@
+# Process of getting Networksd
 Now we are getting the show's exact channel with the help of all probable host that is present in the whole video. We are using the voting method to find the correct network.
 
 
