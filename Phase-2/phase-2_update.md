@@ -26,13 +26,13 @@ We are using IMDb Dataset because it contains all information regarding a show.
    * Only take nconst who have news-related (Talk-shows and news genre) shows
    * At least one title must be of US region
   
-<b>Code link - </b><a href="https://github.com/EdOates84/Show-Segmentation/blob/master/Phase-2/nconst.ipynb">Get nconst/a>
+<b>Code link - </b><a href="https://github.com/EdOates84/Show-Segmentation/blob/master/Phase-2/nconst.ipynb">Get nconst</a>
 
 ### Get_tconst
 * tconst (string) is a unique alphanumeric identifier of the title
 * Take all titles for a particular nconst
 
-<b>Code link - </b><a href="https://github.com/EdOates84/Show-Segmentation/blob/master/Phase-2/tconst.ipynb">Get tconst/a>
+<b>Code link - </b><a href="https://github.com/EdOates84/Show-Segmentation/blob/master/Phase-2/tconst.ipynb">Get tconst</a>
 
 ### Get_Shows
 * We are union all tconst associate with a particular nconst like by title_crew, known for the title.
@@ -48,4 +48,4 @@ We are using IMDb Dataset because it contains all information regarding a show.
   
  By using these filters, we are getting the exact show in case of our probable host is correct 
 
-<b>Code link - </b><a href="https://github.com/EdOates84/Show-Segmentation/blob/master/Phase-2/show.ipynb">Get shows/a>
+<b>Code link - </b><a href="https://github.com/EdOates84/Show-Segmentation/blob/master/Phase-2/show.ipynb">Get shows</a>
