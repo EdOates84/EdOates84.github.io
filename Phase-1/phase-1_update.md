@@ -8,7 +8,7 @@ Suppose we are getting five persons or prediction for a given show
 * We have to check each person's professions, whether he/she is an anchor/host/journalist/presenter, etc.
 * I wrote code for the check profession and got only one anchor from 5
 
-<b>Code link</b> - <a href="https://github.com/EdOates84/Show-Segmentation/blob/master/Phase-1/Get_Anchor.ipynb">Anchor Detection</a>
+<b>Code link - </b><a href="https://github.com/EdOates84/Show-Segmentation/blob/master/Phase-1/Get_Anchor.ipynb">Anchor Detection</a>
 
 ## Channel Detection
 Next, we move on to finding a channel from the list of anchors-
@@ -20,7 +20,7 @@ There are two ways to get channels
 
 * By using Wikipedia content page - after research, we have a list of channels or networks. Then, the first check in this given channel is present in the anchors Wikipedia then store that channel or networks. Like this store all channels from each anchor of videos and then take commonly from these to finding the correct channel or network.
 
-<b>Code link</b> - <a href="https://github.com/EdOates84/Show-Segmentation/blob/master/Phase-1/Get_Channels.ipynb">Channel Detection</a>
+<b>Code link - </b><a href="https://github.com/EdOates84/Show-Segmentation/blob/master/Phase-1/Get_Channels.ipynb">Channel Detection</a>
 
 Next, we move on to finding shows by using anchor name and IMDB-
 
