@@ -13,6 +13,7 @@ then C is the most voted network. C is the final network of that video.
 
 Now we have correct anchors and correct networks of the video with us.
 
+<b>Code link</b> - Get Anchor 
 
 # Process of getting shows
 
