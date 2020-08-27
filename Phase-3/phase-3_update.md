@@ -6,4 +6,5 @@ In this phase, I worked more on the face recognition method. Because the problem
 * By adjustment in dimension
 
 Both adjustments are mutually dependent, like decreasing dimension from 128D to 64D, 32D, 16D then we have to reduce epsilon; also, this is related to machine learning. For dimensional reduction purposes, I have to use PAC.
+
 Then I'm preparing my code for final submission and put it on the HPC Cluster.
