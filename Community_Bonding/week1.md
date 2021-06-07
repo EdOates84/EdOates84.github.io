@@ -1,6 +1,6 @@
 ## Community Bonding
 
-![img](https://miro.medium.com/max/598/0*S6Es74nvRVxExEkL.png)
+![img](https://miro.medium.com/max/1488/1*wE33hfk_fAbzQbS7MK52lQ.png)
 
 ## Notes from the community bonding period
 
@@ -33,12 +33,3 @@ This link contains some guidelines to set up the singularity container [here](ht
 
 I go through the last year's final usable code and read very precisely or understand all the functions and their working. I am also looking where my code well fitted in that codebase.
 
-## Explore IMDB Dataset
-
-### Objective-1
-To find a channel by using multiple anchors from 8-hour long video
-
-* By Face recognition we get anchors name by using anchors we can get channels, but we currently have big data there are so many constraints like multiple anchors with the same name, and an anchor worked in many shows.
-* I convert this big dataset to relevant data by applying filters like we have most of the news shows and by using the profession of an anchor.
-* We want to show name, but due to big data, we cannot get the correct show name. So we think we need one more thing which connects the show and anchor and we found channels.
-* Currently we don't have any dataset that contains all news channels with their respective shows, So we are working on that.
