@@ -7,7 +7,5 @@ Code and instructions available in the repository - <a href="https://github.com/
 ## Weekly Progress:
 
 ### [Community bonding](Community_Bonding/week1.md)
-### [Phase-1](Phase-1/phase-1_update.md)
-### [Phase-2](Phase-2/phase-2_update.md)
-### [Phase-3 Update](Phase-3/phase-3_update.md)
+### [Phase-1](phase-1_update.md)
 
