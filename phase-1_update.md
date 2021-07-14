@@ -100,4 +100,7 @@ He offered to work parallelly on Sasi's code and prepare a dataset from the wiki
 }]
 ```
 
-I have tested the code in hpc cluster with some of inputs and the code is perfectly working there without any issues.
+
+I have tested the code on the HPC cluster with some inputs, and the code is perfectly working there without any issues. As of now, there is no point in running our code to the whole gallina dataset because that took a lot of time, and that is not worth doing because we already know that our algorithm is not that good, which I proved in my last blog update and also attached the picture of results. So the algorithm required some changes. After this, we can run it on the whole dataset once we get the expected output. 
+
+
