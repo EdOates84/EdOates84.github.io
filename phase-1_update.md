@@ -43,3 +43,61 @@ So we decided to go through the Sasi Kiran(GSoCer'19) and find why we are gettin
 I have gone through his code; it took a lot of time because it's not that easy to debug someone's code and logic which he used at that time to achieve any goal. After debugging the code, I found some lead and a vision of where we should go, which we will discuss in the meeting.
 
 
+After a lengthy discussion with Frankie in the last meeting (6th July), He suggested some broader alternatives. 
+He offered to work parallelly on Sasi's code and prepare a dataset from the wiki data.
+
+
+1. Sasi's code:
+
+
+    Working on Sasi's code and logic is not that easy for me because last year, I was not working on his code, only adding more functionality to his code. So for more understanding, I have scheduled multiple calls with him and understand his code sothat I found some lead, and I figured it out, but the implementation was a bit lengthy and required some research from my side. That's what I'm doing.
+
+    Sasi's code is lengthy. You can see it here: https://github.com/eonr/ShowSegmentation/blob/master/final_usable_code/Final_notebook.ipynb
+
+
+2. Prepare dataset from the wiki data:
+
+    I have successfully prepared a dataset from wiki data and downloaded it in json format, and the sample result is here:
+
+
+``` json
+[{
+    "person": "http://www.wikidata.org/entity/Q3056623",
+    "personLabel": "Erin Burnett",
+    "birthDate": "1976-07-02T00:00:00Z",
+    "workPeriod": "2003-01-01T00:00:00Z",
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Erin%20Burnett%20-%20small.jpg"
+}, {
+    "person": "http://www.wikidata.org/entity/Q3106112",
+    "personLabel": "Gilles Bouleau",
+    "birthDate": "1962-05-25T00:00:00Z",
+    "workPeriod": "1986-01-01T00:00:00Z",
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Gilles%20Bouleau%20Cannes%202016.jpg"
+}, {
+    "person": "http://www.wikidata.org/entity/Q3124024",
+    "personLabel": "Gérard Holtz",
+    "birthDate": "1946-12-08T00:00:00Z",
+    "workPeriod": "1972-01-01T00:00:00Z",
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/G%C3%A9rard%20Holtz.JPG"
+}, {
+    "person": "http://www.wikidata.org/entity/Q3131980",
+    "personLabel": "Henri Sannier",
+    "birthDate": "1947-09-07T00:00:00Z",
+    "workPeriod": "1973-01-01T00:00:00Z",
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Henri%20Sannier.jpg"
+}, {
+    "person": "http://www.wikidata.org/entity/Q3236790",
+    "personLabel": "Lester Holt",
+    "birthDate": "1959-03-08T00:00:00Z",
+    "workPeriod": "1981-01-01T00:00:00Z",
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Lester%20Holt%20by%20Gage%20Skidmore.jpg"
+}, {
+    "person": "http://www.wikidata.org/entity/Q3241332",
+    "personLabel": "Linda Ellerbee",
+    "birthDate": "1944-08-15T00:00:00Z",
+    "workPeriod": "1964-01-01T00:00:00Z",
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Linda%20Ellerbee.jpg"
+}]
+```
+
+I have tested the code in hpc cluster with some of inputs and the code is perfectly working there without any issues.
