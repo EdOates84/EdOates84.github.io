@@ -28,4 +28,5 @@ filename: 2006-01-02_00001057_1-2_CNN_Newsroom_Rosemary_Church.txt
 **Rosemary_Church** is the anchor name of the whole show.
 
 In the last second line, all the confident hosts are present.
+
 In the last line, all the majority networks are present.
