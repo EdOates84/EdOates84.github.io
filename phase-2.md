@@ -30,3 +30,12 @@ filename: 2006-01-02_00001057_1-2_CNN_Newsroom_Rosemary_Church.txt
 In the last second line, all the confident hosts are present.
 
 In the last line, all the majority networks are present.
+
+### Updated on 23 July 2021
+
+I have made more changes in the final algorithm because I don't want to drop the primary information/prediction of anchors from the show's text file. I have pushed all the code to the [GSoC-2021](https://github.com/EdOates84/GSoC-2021) repository.
+
+Here is the updated image:
+![Screenshot from 2021-07-22 19-09-59](https://user-images.githubusercontent.com/46043645/126740409-c20dbf3f-71cd-4b36-a52d-5a5169fe54d3.png)
+
+Now I'm going to work on the final script.
