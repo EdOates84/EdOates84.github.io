@@ -39,3 +39,41 @@ Here is the updated image:
 ![Screenshot from 2021-07-22 19-09-59](https://user-images.githubusercontent.com/46043645/126740409-c20dbf3f-71cd-4b36-a52d-5a5169fe54d3.png)
 
 Now I'm going to work on the final script.
+
+
+### Updated on 27 July 2021
+
+Frankie and I met on 23 July and discussed about the final scripts. He suggested using slurm, which processes all the tv shows and returns the text files.
+
+Here is the segment_tv.py file, which iterates all the shows:
+
+
+``` python
+"""
+This file is made specifically to work on the tv dataset present
+on the CWRU HPC Cluster.
+
+Recursively works on all .mp4 files present in the CWRU tv dataset.
+"""
+import os
+from segment_video import segment_video
+from os.path import join as join
+
+dataset = '/mnt/rds/redhen/gallina/tv/'
+split   = '/mnt/rds/redhen/gallina/TvSplit/'
+
+for y in os.listdir(dataset):
+    for y_m in os.listdir(join(dataset, y)):
+        for y_m_d in os.listdir(join(dataset, y, y_m)):
+            for video in os.listdir(join(dataset, y, y_m, y_m_d)):
+                vid_path    = join(dataset, y, y_m, y_m_d, video)
+                output_path = join(split, y, y_m, y_m_d) # Exact same tree structure as tv/ is to be used in TvSplit/
+
+                if not os.path.exists(output_path): 
+                    os.makedirs(output_path) # os.makedirs creates all missing directories in the path recursively
+
+                try:
+                    segment_video(vid_path, output_path)
+                except:
+                    print("Error segmenting {}, possible problems: \n1. Video is too small (<20 minutes)\n2. Video file_name doesn\'t follow the tv naming convention\n3. Video .txt3 file doesn\'t follow the tv format\n4. Raise an issue on github if any other error exists".format(video))
+```
