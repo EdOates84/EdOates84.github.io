@@ -152,3 +152,17 @@ except:
 
 
 The flow is, first of all, we need to take input so the **final_script.py** looping all the input videos and call **final_script.slurm** it will handle all the jobs and memory, then this slurm file call **segment_tv.py** file to execute the final function, which segments the video and stores it. 
+
+
+## Updated on 9 August 2021
+
+Now we have added the show name line in the final txt file.
+
+After these scripts, we decided to write one more script to check how much time a show is occurring to help us find a more accurate show. 
+
+Here is the graphical representation of shows:
+
+![img](https://user-images.githubusercontent.com/46043645/128753031-1f494c87-7776-413c-b1ac-e563871bba6f.png)
+
+
+We have tested the algorithm for production videos and resolve all the bugs; now everything is working fine, and we are getting results.
