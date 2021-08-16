@@ -4,7 +4,7 @@ Majorly I worked on finding anchors, shows, channels probable and confident both
 
 > Project Code: [Show-Segmentation-2021](https://github.com/EdOates84/Show-Segmentation-2021)
 
-> Weekly Updated Blogs: [Blog](https://edoates84.github.io/)
+> Weekly Updated Blogs: [Blogs](https://edoates84.github.io/)
 
 ## Here is the final production pipeline flow:
 
