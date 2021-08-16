@@ -91,7 +91,22 @@ Probable Shows| <br>
 Shows|Black_Men_Revealed<br>
 
 
-#### Show analytics for 1 month output data
+### Example of Show analytics for 1 month data
+
+
+#### Example 1 : 2015-06
+
+![2015-06](https://user-images.githubusercontent.com/46043645/129609108-0b875841-1b6a-4f19-993e-4ddf5efd7d77.png)
+
+
+#### Example 2 : 2015-12
+
+![2015-12](https://user-images.githubusercontent.com/46043645/129609090-d3a7d453-c662-493b-af79-cf4882c3490f.png)
+
+
+#### Example 3 : 2015-01
+
+![2015-05](https://user-images.githubusercontent.com/46043645/129609126-a701f910-9b81-42ce-9122-569a4e30c78e.png)
 
 
 ## Future work
