@@ -15,7 +15,7 @@ I spent a lot of time running algorithms and getting final .txt files at CaseHPC
 
 > I spent **3 days/night** to achieve **4 months'** output.
 
-> The **estimation** for the whole collection can take **approx 180 days**.
+> The **estimation** for the whole collection is **approx 180 days**.
 
 ### Examples of final .txt files:
 
