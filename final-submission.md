@@ -91,7 +91,7 @@ Probable Shows| <br>
 Shows|Black_Men_Revealed<br>
 
 
-### Example of Show analytics for 1 month data
+### Examples of Show analytics for each 1 month data
 
 
 #### Example 1 : 2015-06
