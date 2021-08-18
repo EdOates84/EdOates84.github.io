@@ -18,7 +18,7 @@ Majorly I worked on finding anchors, shows, channels probable and confident both
 I spent a lot of time running algorithms and getting final .txt files at CaseHPC; this was very time-consuming. 
 > The processing of a **single video** takes **40 to 50 min** on average.
 
-> I spent **3 days/night** to achieve **4 months'** output.
+> I spent **5 days/night** to achieve **7 months** output.
 
 > The **estimation** for the whole collection is **approx 180 days**.
 
