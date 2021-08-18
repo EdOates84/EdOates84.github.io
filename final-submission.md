@@ -1,6 +1,6 @@
 # Final Submission
 
-Majorly I worked on finding anchors, shows, channels probable and confident both or added in the final text file. Implemented the final production pipeline using python scripts and slurm to handle all the jobs submissions and output text files. I have tested my algorithm on HPC with extensive data of **7 months**. It took 5 continuous days/night to process **10k+ videos** and generate .txt file and .mp4(segmented video).
+Majorly I worked on finding anchors, shows, channels probable and confident both or added in the **final .txt file**. The algorithm segmented shows and created a .txt file for each segmented show containing all the show information that you can see below in the **Example of final .txt files** section. Implemented the final production pipeline and developed python scripts and slurm script to process and handle all the jobs submissions and output .txt files. I have run and tested my algorithm on HPC with extensive data of 7 months. It took 5 continuous days/night to process 10k+ videos and generate .txt file and .mp4(segmented video).
  
 > **Path of Output files:** [/mnt..gallina/Singularity/Show-Segmentation-2021/TvSplit_2]()
 
@@ -96,33 +96,32 @@ Probable Shows| <br>
 Shows|Black_Men_Revealed<br>
 
 
-### Examples of Show analytics for each 1 month data
+### Show analytics
 
 These plots give an overall view of shows like No. of episodes of the show on the x-axis and the count of those episodes on the y-axis.
 
-**Example:** This is the dictionary that contains show name and their occurrence.
+**Suppose:** This is the dictionary that contains the name of shows and their occurrences in the whole resultant dataset. 
 
-{'Charlie_Rose': 6, 'Worldwide_Exchange': 2, 'The_Hot_List': 1, 'The_Ricki_Lake_Show': 1, 'Access_Daily': 2}
+{'Charlie_Rose': 6, 'Worldwide_Exchange': 2, 'The_Hot_List': 1, 'The_Ricki_Lake_Show': 1, 'Access_Daily': 14, '48_Hours': 9, 'Extra_with_Billy_Bush': 16, 'Good_Day_L.A.': 8, 'Newsnight': 10}
+
+I'm putting the same data in the table, only values, not the name, because we have count on the y-axis that represents how many single or double shows are present in results or that can be improved in the future.
 
 | x-axis      | y-axis(count) |
 | ----------- | ----------- |
 | 1           | 2           |
-| 2           | 2           |
-| 6           | 1           |
+| 2           | 1           |
+| 8           | 1           |
+| 9           | 1           |
+| 10          | 1           |
+| 14          | 1           |
+| 16          | 1           |
 
-#### Example 1 : 2015-06
+So now we can say if the show/episode occurring more than 3 or 4 times like Charlie_Rose, Access_Daily, 48_Hours, Extra_with_Billy_Bush, Good_Day_L.A., Newsnight shows have more accuracy; on the other hand, if the show is present only 1 or 2 times like The_Hot_List, The_Ricki_Lake_Show, Worldwide_Exchange then we can't say that it is more accurate show or not.
 
-![2015-06](https://user-images.githubusercontent.com/46043645/129609108-0b875841-1b6a-4f19-993e-4ddf5efd7d77.png)
+#### Show analysis of 6 month data
 
+![6_month_data](https://user-images.githubusercontent.com/46043645/129873297-55b70ca3-c631-4dd0-9972-717c0f5a495e.png)
 
-#### Example 2 : 2015-12
-
-![2015-12](https://user-images.githubusercontent.com/46043645/129609090-d3a7d453-c662-493b-af79-cf4882c3490f.png)
-
-
-#### Example 3 : 2015-01
-
-![2015-05](https://user-images.githubusercontent.com/46043645/129609126-a701f910-9b81-42ce-9122-569a4e30c78e.png)
 
 
 ## Future work
