@@ -104,7 +104,7 @@ These plots give an overall view of shows like No. of episodes of the show on th
 
 {'Charlie_Rose': 6, 'Worldwide_Exchange': 2, 'The_Hot_List': 1, 'The_Ricki_Lake_Show': 1, 'Access_Daily': 14, '48_Hours': 9, 'Extra_with_Billy_Bush': 16, 'Good_Day_L.A.': 8, 'Newsnight': 10}
 
-I'm putting the same data in the table, only values, not the name, because we have count on the y-axis that represents how many single or double shows are present in results or that can be improved in the future.
+I'm putting the same data in the table, only values, not the name, because we have count on the y-axis that represents how many single or few episodes are present in results or that can be improved in the future.
 
 | x-axis      | y-axis(count) |
 | ----------- | ----------- |
@@ -120,7 +120,7 @@ So now we can say if the show/episode occurring more than 3 or 4 times like Char
 
 #### Show analysis of 6 month data
 
-![6_month_data](https://user-images.githubusercontent.com/46043645/129873297-55b70ca3-c631-4dd0-9972-717c0f5a495e.png)
+![download (4)](https://user-images.githubusercontent.com/46043645/129891889-1cadd63e-a458-4b85-a12d-316a794d886a.png)
 
 
 
@@ -131,7 +131,7 @@ So now we can say if the show/episode occurring more than 3 or 4 times like Char
 
 > Explore the dataset that contains news shows with anchors and include it in the pipeline.
 
-> In histogram you can see there is a lot of single shows in 6 months. usually shows are coming in the series so we can improve it.
+> Shows with single or a few episodes can just be dropped to improve precision at the expense of recall.
 
 
 ## Acknowledgments
