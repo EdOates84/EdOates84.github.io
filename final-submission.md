@@ -131,6 +131,8 @@ So now we can say if the show/episode occurring more than 3 or 4 times like Char
 
 > Explore the dataset that contains news shows with anchors and include it in the pipeline.
 
+> In histogram you can see there is a lot of single shows in 6 months. usually shows are coming in the series so we can improve it.
+
 
 ## Acknowledgments
 
