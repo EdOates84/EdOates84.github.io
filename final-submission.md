@@ -1,10 +1,12 @@
 # Final Submission
 
-Majorly I worked on finding anchors, shows, channels probable and confident both or added in the final text file. Implemented the final production pipeline by using slurm that will handle all the jobs submissions and output text files.
+Majorly I worked on finding anchors, shows, channels probable and confident both or added in the final text file. Implemented the final production pipeline using python scripts and slurm to handle all the jobs submissions and output text files. I have tested my algorithm on HPC with extensive data of **7 months**. It took 5 continuous days/night to process **10k+ videos** and generate .txt file and .mp4(segmented video).
+ 
+> **Path of Output files:** [/mnt..gallina/Singularity/Show-Segmentation-2021/TvSplit_2]()
 
-> Project Code: [Show-Segmentation-2021](https://github.com/EdOates84/Show-Segmentation-2021)
+> **Project Code:** [Show-Segmentation-2021](https://github.com/EdOates84/Show-Segmentation-2021)
 
-> Weekly Updated Blogs: [Blogs](https://edoates84.github.io/)
+> **Weekly Updated Blogs:** [Blogs](https://edoates84.github.io/)
 
 ## Here is the final production pipeline flow:
 
@@ -96,6 +98,17 @@ Shows|Black_Men_Revealed<br>
 
 ### Examples of Show analytics for each 1 month data
 
+These plots give an overall view of shows like No. of episodes of the show on the x-axis and the count of those episodes on the y-axis.
+
+**Example:** This is the dictionary that contains show name and their occurrence.
+
+{'Charlie_Rose': 6, 'Worldwide_Exchange': 2, 'The_Hot_List': 1, 'The_Ricki_Lake_Show': 1, 'Access_Daily': 2}
+
+| x-axis      | y-axis(count) |
+| ----------- | ----------- |
+| 1           | 2           |
+| 2           | 2           |
+| 6           | 1           |
 
 #### Example 1 : 2015-06
 
